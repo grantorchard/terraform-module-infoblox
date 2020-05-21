@@ -1,9 +1,3 @@
-/*
-provider "infoblox" {
-  wapi_version = "2.5"
-}
-*/
-
 resource infoblox_ip_allocation "this" {
   network_view_name = var.network_view_name
   vm_name = var.hostname
